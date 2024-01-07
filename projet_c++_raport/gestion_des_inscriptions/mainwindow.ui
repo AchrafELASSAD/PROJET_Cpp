@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>781</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="home">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Etudiant">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>250</y>
+        <width>301</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;
+background-color: rgb(0, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Ajouter les etudiants</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Inscription">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>350</y>
+        <width>301</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Inscription</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Cours">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>250</y>
+        <width>301</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;
+background-color: rgb(0, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Ajouter les cours</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Affichage">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>350</y>
+        <width>301</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Liste des etudiants inscrits</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>731</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 18pt &quot;Segoe UI Black&quot;;
+color: rgb(255, 170, 0);
+text-decoration: underline;</string>
+      </property>
+      <property name="text">
+       <string>Gestion de l’inscription des étudiants à des cours</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>-40</x>
+        <y>-30</y>
+        <width>831</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>-440</x>
+        <y>-330</y>
+        <width>2221</width>
+        <height>1231</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>441</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_30</zorder>
+     <zorder>label</zorder>
+     <zorder>label_2</zorder>
+     <zorder>go_Etudiant</zorder>
+     <zorder>go_Inscription</zorder>
+     <zorder>go_Cours</zorder>
+     <zorder>go_Affichage</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_34</zorder>
+    </widget>
+    <widget class="QWidget" name="etudiant">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>-40</x>
+        <y>-90</y>
+        <width>1451</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>170</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Home">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>home</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="nomEtudiantInput">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>175</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="prenomEtudiantInput">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>230</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>230</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Prénom</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>100</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 24pt &quot;Segoe UI Black&quot;;
+color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Etudiant</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ajouter_Etudiant">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>320</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>Ajouter</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_next">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>next</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>291</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/pngegg.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="cours">
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>-80</x>
+        <y>-40</y>
+        <width>1511</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Home_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>100</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 24pt &quot;Segoe UI Black&quot;;
+color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>cours</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="nomCoursInput">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>190</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="seancesInput">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>240</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>190</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nom du cours</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>240</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nombre de séances</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>210</y>
+        <width>341</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/png-clipart-student-educational-assessment-school-course-education-text-people-thumbnail-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_next_2">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>next</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_previous">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>previous</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ajouter_Cours">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>330</y>
+        <width>261</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 0);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>ajouter</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>-410</x>
+        <y>-250</y>
+        <width>2161</width>
+        <height>1191</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_28</zorder>
+     <zorder>label_10</zorder>
+     <zorder>label_11</zorder>
+     <zorder>go_Home_2</zorder>
+     <zorder>label_12</zorder>
+     <zorder>nomCoursInput</zorder>
+     <zorder>seancesInput</zorder>
+     <zorder>label_15</zorder>
+     <zorder>label_14</zorder>
+     <zorder>label_13</zorder>
+     <zorder>go_next_2</zorder>
+     <zorder>go_previous</zorder>
+     <zorder>ajouter_Cours</zorder>
+     <zorder>label_32</zorder>
+    </widget>
+    <widget class="QWidget" name="inscription">
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>-250</x>
+        <y>-60</y>
+        <width>1801</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Home_3">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>80</y>
+        <width>251</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 24pt &quot;Segoe UI Black&quot;;
+color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Inscription</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_previous_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>previous</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_next_3">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>next</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="studentListWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>261</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="autoScroll">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::MultiSelection</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="courseListWidget">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>190</y>
+        <width>291</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="autoScroll">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::MultiSelection</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>150</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(85, 255, 0);
+font: 900 18pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>etudiants</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>150</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(85, 255, 0);
+font: 900 18pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>cours</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>400</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(85, 255, 0);
+font: 900 18pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>année scolaire</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="insert_into_inscription">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>420</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 127);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>insert</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="anneeScolaireComboBox">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>440</y>
+        <width>121</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>-420</x>
+        <y>-260</y>
+        <width>2181</width>
+        <height>1151</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="update_etudiant">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>190</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 255);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>update etudiant</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="delete_etudiant">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>290</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>delete etudiant</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="update_cours">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>240</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 255);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>update cours</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="delete_cours">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>340</y>
+        <width>191</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 0);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>delete cours</string>
+      </property>
+     </widget>
+     <zorder>label_29</zorder>
+     <zorder>label_16</zorder>
+     <zorder>go_Home_3</zorder>
+     <zorder>label_17</zorder>
+     <zorder>label_18</zorder>
+     <zorder>go_previous_2</zorder>
+     <zorder>go_next_3</zorder>
+     <zorder>studentListWidget</zorder>
+     <zorder>courseListWidget</zorder>
+     <zorder>label_22</zorder>
+     <zorder>label_23</zorder>
+     <zorder>label_24</zorder>
+     <zorder>insert_into_inscription</zorder>
+     <zorder>anneeScolaireComboBox</zorder>
+     <zorder>label_35</zorder>
+     <zorder>update_etudiant</zorder>
+     <zorder>delete_etudiant</zorder>
+     <zorder>update_cours</zorder>
+     <zorder>delete_cours</zorder>
+    </widget>
+    <widget class="QWidget" name="affichage">
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>-110</x>
+        <y>0</y>
+        <width>1931</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>231</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_Home_4">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>home</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="go_previous_3">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>10</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 11pt &quot;Segoe UI Black&quot;;
+background-color: rgb(85, 255, 0);</string>
+      </property>
+      <property name="text">
+       <string>previous</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>100</y>
+        <width>301</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 24pt &quot;Segoe UI Black&quot;;
+color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>affichage</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="studentCoursesTable">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>170</y>
+        <width>481</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>601</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>etudiant</string>
+       </property>
+       <property name="foreground">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string notr="true">cours</string>
+       </property>
+       <property name="foreground">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>anneeScolaire</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>-40</x>
+        <y>-20</y>
+        <width>1491</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>img/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_25</zorder>
+     <zorder>label_19</zorder>
+     <zorder>label_20</zorder>
+     <zorder>go_Home_4</zorder>
+     <zorder>go_previous_3</zorder>
+     <zorder>label_21</zorder>
+     <zorder>studentCoursesTable</zorder>
+     <zorder>label_26</zorder>
+    </widget>
+    <widget class="QWidget" name="updateEtudiant">
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>90</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 24pt &quot;Segoe UI Black&quot;;
+color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Update Etudiant</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>1401</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>190</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Prénom</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="nomEtudiantInputUpdate">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>190</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="prenomEtudiantInputUpdate">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>240</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="update_Button">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>320</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 0);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Update</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>150</y>
+        <width>291</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/pngegg.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_36</zorder>
+     <zorder>label_33</zorder>
+     <zorder>label_37</zorder>
+     <zorder>label_38</zorder>
+     <zorder>label_39</zorder>
+     <zorder>nomEtudiantInputUpdate</zorder>
+     <zorder>prenomEtudiantInputUpdate</zorder>
+     <zorder>update_Button</zorder>
+     <zorder>label_44</zorder>
+    </widget>
+    <widget class="QWidget" name="updateCours">
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>110</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 24pt &quot;Segoe UI Black&quot;;
+color: rgb(255, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>Update cours</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>-360</x>
+        <y>-20</y>
+        <width>2081</width>
+        <height>1051</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/baim-hanif-pYWuOMhtc6k-unsplash.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>201</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/Capture-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="nomCoursInputUpdate">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>200</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="seancesInputUpdate">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>260</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>260</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nombre de séances</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Nom du cours</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>240</y>
+        <width>341</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Downloads/png-clipart-student-educational-assessment-school-course-education-text-people-thumbnail-removebg-preview.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Update_button_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>360</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 0);
+font: 900 12pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Update</string>
+      </property>
+     </widget>
+     <zorder>label_41</zorder>
+     <zorder>label_40</zorder>
+     <zorder>label_42</zorder>
+     <zorder>nomCoursInputUpdate</zorder>
+     <zorder>seancesInputUpdate</zorder>
+     <zorder>label_27</zorder>
+     <zorder>label_43</zorder>
+     <zorder>label_45</zorder>
+     <zorder>Update_button_2</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
